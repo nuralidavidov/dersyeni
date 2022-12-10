@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* header css start */
+
+header {
+    background-image: url("img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+
+header nav i {
+    color: #fff;
+    font-size: 24px;
+}
+
+.header_body h1 {
+    font-size: 52px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 210px;
+}
+
+.header_body form input {
+    width: 326px;
+    height: 40px;
+    background-color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #8b8b8b;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 15px;
+    border: none;
+    outline: none;
+}
+
+.header_body form button {
+    width: 122px;
+    height: 40px;
+    background-color: #fd4f32;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+
+.header_body form {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 200px;
+}
+
+/* first section */
+#travel {
+    background-color: #eeeeee;
+    padding-top: 55px;
+
+}
+
+#travel h1 {
+    font-size: 16px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #323232;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    }
+    
+
+
+#travel p {
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: #8b8b8b;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    
+}
+.section_body h3{
+    font-size: 14px;
+letter-spacing: 0px;
+text-transform: uppercase;
+color: #323232;
+font-weight: 400;
+font-family: "Montserrat";
+}
+.section_body p{
+    width: 204px;
+height: 75px;
+font-size: 13px;
+line-height: 19px;
+color: #696969;
+font-weight: 400;
+font-family: "Open Sans";
+}
+.section_body .text_body{
+    background-color: #fff;
+    padding: 20px 0 20px 20px;
+    width: 230px;
+    
+
+
+}
+.section_body{
+    display: flex;
+}
+.section_body img {
+    width: 230px;
+}
+.section_body div{
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 65px;
+    
+}
+
+
+/* Before you leave */
+#before{
+    background-color: #fff;
+}
+
+
+#before h1{
+    font-size: 52px;
+letter-spacing: 2px;
+color: #323232;
+font-weight: 300;
+font-family: "Open Sans";
+padding-top: 90px;
+margin-bottom: 65px;
+}
+.visa h2{
+    font-size: 16px;
+letter-spacing: 0px;
+text-transform: uppercase;
+color: #323232;
+font-weight: 400;
+font-family: "Montserrat";
+margin-bottom: 20px;
+
+}
+.visa p{
+    font-size: 15px;
+letter-spacing: 0px;
+line-height: 22px;
+color: #8b8b8b;
+font-weight: 400;
+font-family: "Open Sans";
+}
+.first{
+    display: flex;
+}
+.visa{
+    margin-right: 60px;
+    justify-content: space-between;
+}
+
+#before h4{
+    font-size: 16px;
+letter-spacing: 0px;
+text-transform: uppercase;
+color: #323232;
+font-weight: 400;
+font-family: "Montserrat";
+text-align: center;
+margin-top: 75px;
+}
+#before form input {
+    width: 326px;
+    height: 40px;
+    background-color: #bbb9b9;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #8b8b8b;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 15px;
+    border: none;
+    outline: none;
+    opacity: 0.400;
+}
+
+#before form button {
+    width: 122px;
+    height: 40px;
+    background-color: #fd4f32;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+
+#before form {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 200px;
+}
